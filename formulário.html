@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        body{
+            background-color:rgb(204, 204, 204);
+
+        }
+        div {
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-top: 10%;
+            padding: 25px 50px 75px 100px;
+            background-color: white;
+            border-radius: 10%;
+            box-shadow: 5px 5px 5px black;
+            background-color: 	rgb(179, 179, 179);
+            
+}
+        #p1 {
+            font-family: 'Roboto Mono', monospace;
+            color: rgb(255, 214, 51);
+            font-size: 40px;
+
+        }
+        #p2{
+            background-color: rgb(255, 214, 51) ;
+            border-radius: 15px;
+            
+        }
+
+
+    </style>
+
+
+    
+</head>
+<body>
+
+<h2 id="p1">RESILIA</h2>
+<div>
+<form action="orlandin">
+    <h2>Formação Data Analytics Resilia</h2>
+    <h4> Nova turma aberta, venha fazer parte!!!</h4>
+
+    
+
+    <label for="phone">Nome Completo</label><br><br>
+    <input type="name" id="nome" name="nome" placeholder="João Pedro da Silva" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+
+    <label for="phone">CPF:</label><br><br>
+    <input type="text" id="cpf" name="cpf" placeholder="123.456.789-00" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+    <label for="data">Data de Nascimento:</label><br><br>
+    <input type="date" id="data" name="data" placeholder="123.456.789-00" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+
+    <input id="p2" type="button" onclick="alert('Enviado Com Sucesso!')" value="Quero Fazer Parte!">
+</div>
+</body>
+</html>
+
+
